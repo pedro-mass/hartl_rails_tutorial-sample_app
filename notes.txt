@@ -1,1 +1,7 @@
-Start server:     rails s -b $IP -p $PORT
+Start server:     
+	# cloud 9
+	rails server -b $IP -p $PORT
+	# local
+	rails server
+
+build without production:		bundle install --without production
