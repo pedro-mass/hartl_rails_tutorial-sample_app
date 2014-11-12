@@ -1,10 +1,11 @@
-Start server:     
+Start server:
 	# cloud 9
 	rails server -b $IP -p $PORT
 	# local
 	rails server
 
-build without production:		bundle install --without production
+#build without production:
+bundle install --without production
 
 # run the test suite
 rspec spec/
