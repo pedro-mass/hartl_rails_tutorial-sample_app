@@ -5,3 +5,6 @@ Start server:
 	rails server
 
 build without production:		bundle install --without production
+
+# run the test suite
+rspec spec/
