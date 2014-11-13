@@ -1,8 +1,10 @@
 Start server:
 	# cloud 9
 	rails server -b $IP -p $PORT
+
 	# local
 	rails server
+	# localhost:3000
 
 #build without production:
 bundle install --without production
