@@ -169,7 +169,11 @@ input {
   }
 }
 
-.field_with_errors {
-  @extend .control-group;
-  @extend .error;
+.field_with_errors input{
+  @extend .form-group;
+  @extend .alert-danger;  // fills the entire control with light red
+//  @extend .label-danger;    // fills the entire control with solid red
+//  @extend .panel-danger;    // gives it a light red border
+//  @extend  .btn-danger; solid red
+//  @extend .progress-bar-danger;   // solid red fill
 }
